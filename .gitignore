@@ -1,0 +1,47 @@
+# Archivos temporales de Windows
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.log
+
+# Archivos de compilación o generados por el IDE
+*.obj
+*.dll
+*.exe
+*.pdb
+*.idb
+*.ilk
+*.pch
+*.sdf
+*.suo
+*.user
+*.ncb
+*.aps
+*.cache
+*.res
+*.tlb
+*.tlh
+*.vspscc
+*.vssscc
+
+# Archivos de PLC (ajustar según PC Worx)
+*.compiled
+*.out
+*.hex
+*.bin
+*.map
+*.lst
+
+# Carpeta de build o output
+/Build/
+/Output/
+/bin/
+/obj/
+/Debug/
+/Release/
+
+# Archivos de backup automáticos
+*~
+*.old
+*.backup
