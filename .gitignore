@@ -25,15 +25,39 @@ Desktop.ini
 *.vspscc
 *.vssscc
 
-# Archivos de PLC (ajustar según PC Worx)
+# Archivos de PLC (PC Worx / PLCnext Engineer)
 *.compiled
 *.out
 *.hex
 *.bin
 *.map
 *.lst
+*.CCI
+*.TYB
+*.sto
+*.CIC
+*.DIT
+*.DIW
+*.LAC
+*.LAD
+*.MLI
+*.PRI
+*.aru
+*.D32
+*.DAT
+*.msf
 
-# Carpeta de build o output
+# Archivos redundantes
+*_Translation.xml
+NodeProperties.xml
+CROSSREF.*
+Hardware.Key
+
+# CSV y XML generados automáticamente
+*.csv
+*.xml
+
+# Carpetas de build o output
 /Build/
 /Output/
 /bin/
@@ -45,3 +69,21 @@ Desktop.ini
 *~
 *.old
 *.backup
+# Archivos de configuración y temporales de PLC
+*.ini
+*.inf
+*.svc
+*.dtd
+*.st1
+*.prs
+*.set
+*.tsk
+*.mrk
+*.typ
+*.csb
+*.pdt
+
+# Archivos comprimidos / exportados
+*.zip
+*.rar
+*.7z
